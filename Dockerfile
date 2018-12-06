@@ -8,8 +8,10 @@ RUN mkdir /opt/jboss-7.1.1
 
 COPY ./jboss-7.1.1/ /opt/jboss-7.1.1/
 
-#RUN chmod +x /opt/jboss-7.1.1/bin/standalone/standalone.sh
+RUN chmod +x /opt/jboss-7.1.1/bin/standalone.sh
 
-#CMD ["/opt/jboss-7.1.1/bin/standalone/standalone.sh"]
+CMD ["/opt/jboss-7.1.1/bin/standalone.sh"]
+
+EXPOSE 8080:8080
 
 
