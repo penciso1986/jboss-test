@@ -1,0 +1,149 @@
+@charset "iso-8859-1";
+
+BODY {
+	MARGIN-TOP: 10px; SCROLLBAR-FACE-COLOR: #3366cc; FONT-SIZE: 10px; SCROLLBAR-HIGHLIGHT-COLOR: lightblue; MARGIN-LEFT: 10px; SCROLLBAR-SHADOW-COLOR: darkblue; COLOR: #003c5a; SCROLLBAR-3DLIGHT-COLOR: #335997; SCROLLBAR-ARROW-COLOR: #ffffce; SCROLLBAR-TRACK-COLOR: #6699dd; FONT-FAMILY: Arial,Verdana; SCROLLBAR-DARKSHADOW-COLOR: #336699; BACKGROUND-COLOR: #ffffff
+}
+A:link {
+	COLOR: #003366; TEXT-DECORATION: underline
+}
+A:visited {
+	COLOR: #003366; TEXT-DECORATION: underline
+}
+A:hover {
+	COLOR: #3399FF; TEXT-DECORATION: underline; font: bold}
+
+A:active {
+	COLOR: #0066ff; TEXT-DECORATION: none
+}
+
+
+.nwTituloTabla1 {FONT-WEIGHT: bold; COLOR: #404040; BACKGROUND-COLOR: #b6cee7}
+
+.nwTituloTabla2 {FONT-WEIGHT: bold; COLOR: #404040; BACKGROUND-COLOR: #b6cee7}
+
+.comboOscuro {
+	BORDER-RIGHT: #104a7b 1px solid; BORDER-TOP: #afc4d5 1px solid; FONT-SIZE: 11px; BACKGROUND: #d6e7ef; BORDER-LEFT: #afc4d5 1px solid; CURSOR: hand; COLOR: #000066; BORDER-BOTTOM: #104a7b 1px solid; FONT-FAMILY: tahoma,sans-serif; TEXT-DECORATION: none
+}
+.comboClaro {
+	BORDER-RIGHT: #104a7b 1px solid; BORDER-TOP: #afc4d5 1px solid; FONT-SIZE: 11px; BACKGROUND: none transparent scroll repeat 0% 0%; BORDER-LEFT: #afc4d5 1px solid; CURSOR: hand; COLOR: #000066; BORDER-BOTTOM: #104a7b 1px solid; FONT-FAMILY: tahoma,sans-serif; TEXT-DECORATION: none
+}
+.textbox {
+	BORDER-RIGHT: #104a7b 1px solid; BORDER-TOP: #afc4d5 1px solid; FONT-SIZE: 11px; BACKGROUND: #ffffff; BORDER-LEFT: #afc4d5 1px solid; COLOR: #000066; BORDER-BOTTOM: #104a7b 1px solid; FONT-FAMILY: tahoma,sans-serif; TEXT-DECORATION: none
+}
+.radio {
+	BORDER-RIGHT: #104a7b 0px solid; BORDER-TOP: #afc4d5 0px solid; FONT-SIZE: 11px; BACKGROUND: #ffffff; BORDER-LEFT: #afc4d5 0px solid; COLOR: #000066; BORDER-BOTTOM: #104a7b 0px solid; FONT-FAMILY: tahoma,sans-serif; TEXT-DECORATION: none
+}
+.checkbox {
+	BORDER-RIGHT: #104a7b 0px solid; BORDER-TOP: #afc4d5 0px solid; FONT-SIZE: 11px; BACKGROUND: #ffffff; BORDER-LEFT: #afc4d5 0px solid; COLOR: #000066; BORDER-BOTTOM: #104a7b 0px solid; FONT-FAMILY: tahoma,sans-serif; TEXT-DECORATION: none
+}
+.textarea {
+	BORDER-RIGHT: #104a7b 1px solid; BORDER-TOP: #afc4d5 1px solid; FONT-SIZE: 11px; BACKGROUND: #ffffff; BORDER-LEFT: #afc4d5 1px solid; COLOR: #000066; BORDER-BOTTOM: #104a7b 1px solid; FONT-FAMILY: tahoma,sans-serif; TEXT-DECORATION: none
+}
+.botonClaro {
+	BORDER-RIGHT: #104a7b 1px solid; BORDER-TOP: #afc4d5 1px solid; FONT-SIZE: 11px; BACKGROUND: #ffffff; BORDER-LEFT: #afc4d5 1px solid; CURSOR: hand; COLOR: #000066; BORDER-BOTTOM: #104a7b 1px solid; FONT-FAMILY: tahoma,sans-serif; TEXT-DECORATION: none
+}
+.botonOscuro {
+	BORDER-RIGHT: #104a7b 1px solid; BORDER-TOP: #afc4d5 1px solid; FONT-SIZE: 9px; BACKGROUND: #d6e7ef; BORDER-LEFT: #afc4d5 1px solid; CURSOR: hand; COLOR: #000066; BORDER-BOTTOM: #104a7b 1px solid; FONT-FAMILY: tahoma,sans-serif; TEXT-DECORATION: none
+}
+.botonGrilla {
+	BORDER-RIGHT: #104a7b 1px solid; BORDER-TOP: #afc4d5 1px solid; FONT-SIZE: 8px; BACKGROUND: #d6e7ef; BORDER-LEFT: #afc4d5 1px solid; CURSOR: hand; COLOR: #000066; BORDER-BOTTOM: #104a7b 1px solid; FONT-FAMILY: Verdana, tahoma, arial, sans-serif; TEXT-DECORATION: none
+}
+.cursorOver {
+	FONT-SIZE: 8pt; CURSOR: hand; COLOR: #003366; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.titulo1 {
+	FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #003366; LINE-HEIGHT: normal; FONT-STYLE: normal; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.textoClaro1 {
+	FONT-WEIGHT: normal; FONT-SIZE: 8pt; COLOR: #003366; LINE-HEIGHT: normal; FONT-STYLE: normal; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.textoOscuro1 {
+	FONT-WEIGHT: normal; FONT-SIZE: 8pt; COLOR: #000000; LINE-HEIGHT: normal; FONT-STYLE: normal; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.textoClaro1Bold {
+	FONT-WEIGHT: bold; FONT-SIZE: 8pt; COLOR: #003366; LINE-HEIGHT: normal; FONT-STYLE: normal; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.tablaClara1 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 2px; WIDTH: 95%; PADDING-TOP: 0px
+}
+.tablaClara1 TD {
+	FONT-SIZE: 8px; COLOR: #003c5a; FONT-FAMILY: Arial,Verdana; BACKGROUND-COLOR: #e7f1f6
+}
+.tituloTablaClara1 TD {
+	FONT-WEIGHT: bold; COLOR: #404040; BACKGROUND-COLOR: #b6cee7
+}
+.pieTablaClara1 TD {
+	HEIGHT: 3px; BACKGROUND-COLOR: #77929f
+}
+.tablaOscura1 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 2px; WIDTH: 95%; PADDING-TOP: 0px
+}
+.tablaOscura1 TD {
+	FONT-SIZE: 8px; COLOR: #003c80; FONT-FAMILY: Arial,Verdana; BACKGROUND-COLOR: #f4f4f4
+}
+.tituloTablaOscura1 TD {
+	FONT-WEIGHT: bold; COLOR: #0040a0; BACKGROUND-COLOR: #d0d0d0
+}
+.tituloTablaOscura3 TD{
+	FONT-WEIGHT: bold; COLOR: #0040a0; BACKGROUND-COLOR: #EBCF85
+}
+.pieTablaOscura1 TD {
+	HEIGHT: 3px; BACKGROUND-COLOR: #808080
+}
+.tablaABM1 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 3px; WIDTH: 98%; PADDING-TOP: 0px
+}
+.columnaTablaABMImpar1 {
+	FONT-SIZE: 8px; COLOR: #003c5a; FONT-FAMILY: Arial,Verdana; BACKGROUND-COLOR: #ffffff
+}
+.columnaTablaABMPar1 {
+	FONT-SIZE: 8px; COLOR: #003c5a; FONT-FAMILY: Arial,Verdana; BACKGROUND-COLOR: #f1f8fe
+}
+.titulo2 {
+	FONT-WEIGHT: bold; FONT-SIZE: 11pt; COLOR: #003366; LINE-HEIGHT: normal; FONT-STYLE: normal; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.textoClaro2 {
+	FONT-SIZE: 7pt; COLOR: #003366; LINE-HEIGHT: normal; FONT-STYLE: normal; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.textoOscuro2 {
+	FONT-SIZE: 8pt; COLOR: #000000; LINE-HEIGHT: normal; FONT-STYLE: normal; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.textoClaro2Bold {
+	FONT-WEIGHT: bold; FONT-SIZE: 8pt; COLOR: #003366; LINE-HEIGHT: normal; FONT-STYLE: normal; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.tablaClara2 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 3px; WIDTH: 95%; PADDING-TOP: 0px; CELLPADDING: 5px; CELLSPACING: 5px;
+}
+.tablaClara2 TD {
+	FONT-SIZE: 12px; COLOR: #003c5a; FONT-FAMILY: Arial,Verdana; BACKGROUND-COLOR: #e7f1f6
+}
+.tituloTablaClara2 TD {
+	FONT-WEIGHT: bold; COLOR: #404040; BACKGROUND-COLOR: #b6cee7
+}
+.pieTablaClara2 TD {
+	HEIGHT: 4px; BACKGROUND-COLOR: #77929f
+}
+.tablaOscura2 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 3px; WIDTH: 95%; PADDING-TOP: 0px
+}
+.tablaOscura2 TD {
+	FONT-SIZE: 8px; COLOR: #003c80; FONT-FAMILY: Arial,Verdana; BACKGROUND-COLOR: #f4f4f4
+}
+.tituloTablaOscura2 TD {
+	FONT-WEIGHT: bold; COLOR: #0040a0; BACKGROUND-COLOR: #d0d0d0
+}
+.pieTablaOscura2 TD {
+	HEIGHT: 4px; BACKGROUND-COLOR: #808080
+}
+.tablaABM2 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 3px; WIDTH: 98%; PADDING-TOP: 0px
+}
+.columnaTablaABMImpar2 {
+	FONT-SIZE: 10px; COLOR: #003c5a; FONT-FAMILY: Arial,Verdana; BACKGROUND-COLOR: #ffffff
+}
+.columnaTablaABMPar2 {
+	FONT-SIZE: 10px; COLOR: #003c5a; FONT-FAMILY: Arial,Verdana; BACKGROUND-COLOR: #f1f8fe
+}
+.BackSubMenu {
+	BACKGROUND-COLOR: #d0d0d0
+}
